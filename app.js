@@ -1,4 +1,6 @@
 const getFullName = require("./modules/names");
+const getHobbies = require("./modules/hobbies");
 
-console.log(getFullName("Davide", "Toscano"));
+console.log(getHobbies('Calcio', 'Amici', 'Passeggiate'));
+
  
